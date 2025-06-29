@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Listen</class>
+ <widget class="QWidget" name="Listen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>视唱练耳小助手</string>
+  </property>
+  <widget class="QPushButton" name="BackHome">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="danyin">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>71</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #B5BEC7;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #272E35;
+}
+QPushButton:hover {
+    background-color: #A1ABB5;
+}
+QPushButton:pressed {
+    background-color: #8D99A3;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>单音</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="shuangyin">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>260</y>
+     <width>71</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #B5BEC7;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: #272E35;
+}
+QPushButton:hover {
+    background-color: #A1ABB5;
+}
+QPushButton:pressed {
+    background-color: #8D99A3;
+}</string>
+   </property>
+   <property name="text">
+    <string>双音</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sanyin">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>60</y>
+     <width>71</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #627485;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+QPushButton:hover {
+    background-color: #475561;
+}
+QPushButton:pressed {
+    background-color: #272E35;
+}</string>
+   </property>
+   <property name="text">
+    <string>三音</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="qiyin">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>260</y>
+     <width>71</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>19</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #627485;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+QPushButton:hover {
+    background-color: #475561;
+}
+QPushButton:pressed {
+    background-color: #272E35;
+}</string>
+   </property>
+   <property name="text">
+    <string>七音</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

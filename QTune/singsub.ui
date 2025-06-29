@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SingSub</class>
+ <widget class="QWidget" name="SingSub">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>视唱练耳小助手</string>
+  </property>
+  <widget class="QPushButton" name="BackSing">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="recording">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>510</y>
+     <width>321</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #808F9F;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+QPushButton:hover {
+    background-color: #6B7A8A;
+}
+QPushButton:pressed {
+    background-color: #566879;
+}</string>
+   </property>
+   <property name="text">
+    <string>开始录音</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refresh">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>20</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 30, 129);</string>
+   </property>
+   <property name="text">
+    <string>下一个</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="yuepuLabel">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>80</y>
+     <width>780</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>18</pointsize>
+     <bold>false</bold>
+     <hintingpreference>PreferNoHinting</hintingpreference>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="scoreLabel">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>530</y>
+     <width>171</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="answerplay">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>380</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FBF1E3;
+    border: 6px solid #433F67;
+    border-radius: 50px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+QPushButton:hover {
+    background-color: #F5E7D3;
+}
+QPushButton:pressed {
+    background-color: #EFDDC3;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/MyPicture/p.png</normaloff>:/MyPicture/p.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rebegin">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>510</y>
+     <width>91</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #808F9F;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+}
+QPushButton:hover {
+    background-color: #6B7A8A;
+}
+QPushButton:pressed {
+    background-color: #566879;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/MyPicture/reb.png</normaloff>:/MyPicture/reb.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>45</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>

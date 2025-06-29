@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Write</class>
+ <widget class="QWidget" name="Write">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>视唱练耳小助手</string>
+  </property>
+  <widget class="QPushButton" name="BackHome">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sound">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>310</y>
+     <width>511</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #B5BEC7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+QPushButton:hover {
+    background-color: #808F9F;
+}
+QPushButton:pressed {
+    background-color: #6B7A8A;
+}</string>
+   </property>
+   <property name="text">
+    <string>开始录音</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="midi">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>220</y>
+     <width>511</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #B5BEC7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+QPushButton:hover {
+    background-color: #808F9F;
+}
+QPushButton:pressed {
+    background-color: #6B7A8A;
+}</string>
+   </property>
+   <property name="text">
+    <string>选择midi文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="conduct">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>520</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #FBF1E3;
+    border: none;
+    border-radius: 5px;
+	color:#072544;
+}
+QPushButton:hover {
+    background-color: #F5E6D3;
+}
+QPushButton:pressed {
+    background-color: #E8D9C5;
+}</string>
+   </property>
+   <property name="text">
+    <string>开始处理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refresh">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>410</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>重新上传</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

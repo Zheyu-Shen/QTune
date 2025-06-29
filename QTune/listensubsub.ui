@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListenSubSub</class>
+ <widget class="QWidget" name="ListenSubSub">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+    <pointsize>25</pointsize>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>视唱练耳小助手</string>
+  </property>
+  <widget class="QPushButton" name="play">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>21</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #D9D9D9;
+    border: 6px solid #433F67;
+    border-radius: 60px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 4px;
+    icon: url(:/MyPicture/p.png);
+    icon-size: 60px 60px;
+}
+QPushButton:hover {
+    background-color: #D0D0D0;
+}
+QPushButton:pressed {
+    background-color: #C7C7C7;
+}
+QPushButton:checked {
+    icon: url(:/MyPicture/stp.png);
+    padding-left: 0px;
+    padding-top: 4px;
+    icon-size: 60px 60px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refresh">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>30</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>17</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 30, 129);
+</string>
+   </property>
+   <property name="text">
+    <string>下一个</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="you">
+   <property name="geometry">
+    <rect>
+     <x>532</x>
+     <y>260</y>
+     <width>521</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+QLineEdit:focus {
+    background-color: #C7C7C7;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>点击此处输入</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="answer">
+   <property name="geometry">
+    <rect>
+     <x>533</x>
+     <y>403</y>
+     <width>420</width>
+     <height>77</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>21</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B5BEC7; border-radius: 10px;
+ color: rgb(0, 0, 89);
+ padding-left: 15px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="answerCover">
+   <property name="geometry">
+    <rect>
+     <x>531</x>
+     <y>400</y>
+     <width>521</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>21</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B5BEC7; border-radius: 10px;
+color: rgb(0, 0, 89);</string>
+   </property>
+   <property name="text">
+    <string>按回车键显示答案</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="result">
+   <property name="geometry">
+    <rect>
+     <x>972</x>
+     <y>406</y>
+     <width>71</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>方正小标宋简体</family>
+     <pointsize>21</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B5BEC7; border-radius: 10px;
+ color: rgb(0, 0, 89);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::TextFormat::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackListenSub">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="remindlabel">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>911</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #B5BEC7;
+border-radius: 24px;
+color: rgb(0, 0, 89);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>result</zorder>
+  <zorder>play</zorder>
+  <zorder>refresh</zorder>
+  <zorder>you</zorder>
+  <zorder>answer</zorder>
+  <zorder>answerCover</zorder>
+  <zorder>BackListenSub</zorder>
+  <zorder>remindlabel</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

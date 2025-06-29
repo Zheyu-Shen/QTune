@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WriteSub</class>
+ <widget class="QWidget" name="WriteSub">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>视唱练耳小助手</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>109</y>
+     <width>851</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QScrollArea {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+QScrollArea &gt; QWidget &gt; QWidget {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+QScrollBar:vertical {
+    border: none;
+    background: transparent;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: #433F67;
+    min-height: 20px;
+    border-radius: 5px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+QScrollArea &gt; QWidget {
+    border: none;
+    outline: none;
+}</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>851</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="resultLabel">
+       <property name="font">
+        <font>
+         <family>新宋体</family>
+         <pointsize>18</pointsize>
+         <bold>false</bold>
+         <hintingpreference>PreferNoHinting</hintingpreference>
+        </font>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::NoFrame</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="BackWriteSub">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="download">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>520</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: 5px solid #433F67;
+    background-color: #FBF1E3;
+    border-radius: 40px;
+}
+QPushButton:hover {
+    background-color: #F0E6D6;
+    border: 5px solid #2A2742;
+}
+QPushButton:pressed {
+    background-color: #E5DBC9;
+    border: 5px solid #1F1C30;
+    border-radius: 40px;
+    padding: 2px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="picture.qrc">
+     <normaloff>:/MyPicture/dl.png</normaloff>:/MyPicture/dl.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>45</width>
+     <height>45</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>

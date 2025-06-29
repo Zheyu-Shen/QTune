@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>MyPicture/hp1.png</file>
+        <file>MyPicture/1.png</file>
+        <file>MyPicture/2.png</file>
+        <file>MyPicture/3.png</file>
+        <file>MyPicture/4.png</file>
+        <file>MyPicture/s1.png</file>
+        <file>MyPicture/rt.png</file>
+        <file>MyPicture/w1.png</file>
+        <file>MyPicture/w2.png</file>
+        <file>MyPicture/w3.png</file>
+        <file>MyPicture/w4.png</file>
+        <file>MyPicture/ss1.png</file>
+        <file>MyPicture/p.png</file>
+        <file>MyPicture/reb.png</file>
+        <file>MyPicture/ls1.png</file>
+        <file>MyPicture/stp.png</file>
+        <file>MyPicture/ls2.png</file>
+        <file>MyPicture/dl.png</file>
+        <file>MyPicture/tst.png</file>
+        <file>MyPicture/l1.png</file>
+        <file>MyPicture/5.png</file>
+        <file>MyPicture/lss1.png</file>
+        <file>MyPicture/lss2.png</file>
+        <file>MyPicture/c1.png</file>
+        <file>MyPicture/ws1.png</file>
+        <file>MyPicture/log1.png</file>
+        <file>MyPicture/ai1.png</file>
+        <file>MyPicture/st.png</file>
+        <file>MyPicture/ai2.png</file>
+        <file>MyPicture/nw.png</file>
+        <file>MyPicture/rt2.png</file>
+    </qresource>
+</RCC>

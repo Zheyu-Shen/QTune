@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AIAssistant</class>
+ <widget class="QWidget" name="AIAssistant">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>视唱练耳小助手</string>
+  </property>
+  <widget class="QTextEdit" name="resultTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>521</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F3F4F6; border-radius: 8px; font: 12pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    icon: url(:/MyPicture/rt2.png);
+    icon-size: 28px 28px;
+}
+QPushButton:hover {
+    background-color: #e0e7ef;
+}
+QPushButton:pressed {
+    background-color: #cfd8dc;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>35</width>
+     <height>35</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="refreshButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>20</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    icon: url(:/MyPicture/nw.png);
+    icon-size: 28px 28px;
+}
+QPushButton:hover {
+    background-color: #e0e7ef;
+}
+QPushButton:pressed {
+    background-color: #cfd8dc;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>28</width>
+     <height>28</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>30</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(79, 79, 79);
+font: 14pt &quot;Bauhaus 93&quot;;</string>
+      </property>
+      <property name="text">
+       <string>API Key: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="apiKeyLineEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: #F3F4F6; border-radius: 6px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::EchoMode::Password</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="promptTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>61</x>
+     <y>419</y>
+     <width>521</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F3F4F6; border-radius: 8px; font: 12pt &quot;宋体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sendButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>470</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    icon: url(:/MyPicture/st.png);
+    icon-size: 28px 28px;
+}
+QPushButton:hover {
+    background-color: #e0e7ef;
+}
+QPushButton:pressed {
+    background-color: #cfd8dc;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>28</width>
+     <height>28</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
