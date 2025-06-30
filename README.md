@@ -1,7 +1,9 @@
 # QTune
 Programming Internship Project
 
-本项目在 Windows 环境下基于 Qt 6.8.2 开发
+本项目在 Windows 环境下基于 Qt 6.8.2 开发和测试
+
+如有运行问题，请邮件联系zheyushen@stu.pku.edu.cn
 
 请注意：运行程序时，电脑请使用浅色模式
 
