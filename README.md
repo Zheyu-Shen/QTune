@@ -5,6 +5,8 @@ Programming Internship Project
 
 请注意：运行程序时，电脑请使用浅色模式
 
+请注意：AI接入仅限于deekseek-chat(DeepSeek-V3-0324)模型，不支持深度思考。
+
 演示视频链接：
 
 https://disk.pku.edu.cn/link/AAFFEECFE58D584AB09526AE8A1A40F6CA
