@@ -7,7 +7,7 @@ Programming Internship Project
 
 请注意：运行程序时，电脑请使用浅色模式
 
-请注意：AI接入仅限于deekseek-chat(DeepSeek-V3-0324)模型，不支持深度思考。
+请注意：AI接入仅限于deepseek-chat(DeepSeek-V3-0324)模型，不支持深度思考。
 
 请注意：由于编码问题，程序中上传midi文件转乐谱的文件名不能包含中文，否则会引发错误，请见谅！（项目文件夹下的viva piano version.mid文件可供测试该功能使用）
 
